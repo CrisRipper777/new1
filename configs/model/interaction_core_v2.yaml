@@ -1,0 +1,21 @@
+name: interaction_core_v2
+
+hidden_dim: 256
+relation_dim: 64
+operator_rank: 32
+num_interaction_steps: 2
+
+dropout: 0.2
+relation_dropout: 0.1
+edge_chunk_size: 16384
+
+variant: context_grounded_dynamic
+
+relation:
+  num_heads: 2
+
+retrieval:
+  num_heads: 2
+
+gradient_trace_path: ""
+operator_trace_path: ""

@@ -1,0 +1,10 @@
+dataset,comparison,left_variant,right_variant,n_paired_seeds,val_acc_difference_mean,val_acc_difference_pp,val_acc_difference_sd,val_acc_positive_seed_pairs,val_macro_f1_difference_mean,val_macro_f1_difference_pp,val_macro_f1_positive_seed_pairs
+Movies,Q1_pair_vs_global,pair_grounded_dynamic,global_grounded_dynamic,3,-0.0037992397944132486,-0.37992397944132483,0.004314236219846531,1,-0.01635129461890524,-1.6351294618905239,1
+Movies,Q2_context_dynamic_vs_pair,context_grounded_dynamic,pair_grounded_dynamic,3,0.0022995471954345703,0.22995471954345703,0.0007481848448425076,3,0.011013201793664959,1.101320179366496,3
+Movies,Q3_dynamic_vs_static,context_grounded_dynamic,context_grounded_static,3,0.0,0.0,0.003126703117567912,1,-0.009200390471355938,-0.9200390471355938,1
+Grocery,Q1_pair_vs_global,pair_grounded_dynamic,global_grounded_dynamic,3,-0.008784770965576172,-0.8784770965576172,0.003610199610740418,0,-0.01651282051586041,-1.6512820515860411,0
+Grocery,Q2_context_dynamic_vs_pair,context_grounded_dynamic,pair_grounded_dynamic,3,0.00029283761978149414,0.029283761978149414,0.0029862408914091663,2,-2.4292241556977956e-05,-0.0024292241556977956,2
+Grocery,Q3_dynamic_vs_static,context_grounded_dynamic,context_grounded_static,3,-0.0039043426513671875,-0.39043426513671875,0.004675040779704302,1,-0.010662802471381108,-1.0662802471381108,1
+Reddit-S,Q1_pair_vs_global,pair_grounded_dynamic,global_grounded_dynamic,3,0.0005243023236592611,0.05243023236592611,0.0009020064094426651,2,0.0016277999919184216,0.16277999919184216,2
+Reddit-S,Q2_context_dynamic_vs_pair,context_grounded_dynamic,pair_grounded_dynamic,3,0.00041943788528442383,0.04194378852844238,0.0005346512670403007,2,0.004477648589515641,0.4477648589515641,2
+Reddit-S,Q3_dynamic_vs_static,context_grounded_dynamic,context_grounded_static,3,0.0002097487449645996,0.02097487449645996,0.0017101386117824757,1,0.0026176640184327007,0.26176640184327005,2
