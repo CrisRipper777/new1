@@ -1,0 +1,19 @@
+name: interaction_core
+
+hidden_dim: 256
+relation_dim: 64
+operator_rank: 32
+num_interaction_steps: 2
+
+dropout: 0.2
+relation_dropout: 0.1
+edge_chunk_size: 16384
+
+variant: context_dynamic
+
+relation:
+  num_heads: 2
+
+execution:
+  num_heads: 2
+  zero_init_up: true
