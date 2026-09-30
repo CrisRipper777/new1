@@ -1,0 +1,10 @@
+dataset,comparison,left_variant,right_variant,n_paired_seeds,val_acc_difference_pp,val_acc_difference_sd_pp,val_acc_positive_seed_pairs,val_macro_f1_difference_pp,val_macro_f1_positive_seed_pairs
+Movies,A_state_history_vs_terminal,state_history,terminal,3,-1.719653606414795,0.20828398605837314,0,-2.9670599592864018,1
+Movies,B_operation_history_vs_state_history,operation_history,state_history,3,0.1399695873260498,0.16670021519195927,2,1.1443915141247631,3
+Movies,C_relation_operation_history_vs_operation_history,relation_operation_history,operation_history,3,0.0799854596455892,0.13487865834446167,2,-0.29878222155221845,1
+Grocery,A_state_history_vs_terminal,state_history,terminal,3,-1.034651199976603,0.5739859157999424,0,-0.814481058279648,0
+Grocery,B_operation_history_vs_state_history,operation_history,state_history,3,0.33186872800191247,0.22724107063377416,3,0.5454251467351641,2
+Grocery,C_relation_operation_history_vs_operation_history,relation_operation_history,operation_history,3,0.1268923282623291,0.22215494656622742,2,0.03555098765690712,2
+Reddit-S,A_state_history_vs_terminal,state_history,terminal,3,-0.262137254079183,0.29545788225548897,1,-0.34340554882487473,1
+Reddit-S,B_operation_history_vs_state_history,operation_history,state_history,3,0.10485450426737468,0.07846592608570845,2,0.04586211544417296,1
+Reddit-S,C_relation_operation_history_vs_operation_history,relation_operation_history,operation_history,3,0.0,0.16039421111913835,1,-0.030893260026794895,2

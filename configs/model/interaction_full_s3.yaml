@@ -1,0 +1,36 @@
+name: interaction_full_s3
+
+hidden_dim: 256
+relation_dim: 64
+operator_rank: 32
+conditioner_rank: 32
+num_interaction_steps: 2
+
+dropout: 0.2
+relation_dropout: 0.1
+edge_chunk_size: 16384
+
+# Stage I/II are inherited unchanged from the v3 absolute candidate.
+variant: context_bilinear_absolute
+stage3_variant: relation_operation_history
+
+relation:
+  num_heads: 2
+
+base_relation_retrieval:
+  num_heads: 2
+
+attn_dynamic:
+  num_heads: 2
+
+history:
+  num_heads: 4
+  operation_profile: mean_std
+  zero_init_output: true
+  eps: 1.0e-8
+
+# Filled by the S3 runner; v3 trace paths stay disabled.
+gradient_trace_path: ""
+operator_trace_path: ""
+stage3_gradient_trace_path: ""
+stage3_growth_trace_path: ""
