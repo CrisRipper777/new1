@@ -1,0 +1,9 @@
+variant,group,gradient_rms_mean,gradient_rms_sd,n,runs_with_nonzero_gradient,first_nonzero_epoch_min,first_nonzero_epoch_median,first_nonzero_epoch_max,nonzero_fraction
+terminal,projector_text,0.002623033893842491,0.0024599469340631785,874,9,1,1,1,1.0
+terminal,projector_visual,0.002243262319606381,0.002444510567972146,874,9,1,1,1,1.0
+prior_delta_gate,projector_text,0.0021737638482765323,0.0019332152595801014,927,9,1,1,1,1.0
+prior_delta_gate,projector_visual,0.00267417725378749,0.0029506831885954257,927,9,1,1,1,1.0
+prior_update_add,projector_text,0.0021111023977032494,0.0018482741342803156,892,9,1,1,1,1.0
+prior_update_add,projector_visual,0.0028794119066084816,0.002984734040577244,892,9,1,1,1,1.0
+prior_update_gate,projector_text,0.0021338856273390066,0.0018675467928034434,920,9,1,1,1,1.0
+prior_update_gate,projector_visual,0.0031680630418669154,0.003321080361613094,920,9,1,1,1,1.0

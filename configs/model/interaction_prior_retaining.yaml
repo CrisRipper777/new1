@@ -1,0 +1,27 @@
+name: interaction_prior_retaining
+
+hidden_dim: 256
+relation_dim: 64
+operator_rank: 32
+conditioner_rank: 32
+num_interaction_steps: 2
+
+dropout: 0.2
+relation_dropout: 0.1
+edge_chunk_size: 16384
+
+# Stage II remains exactly the frozen v3 absolute conditioner.
+variant: context_bilinear_absolute
+readout_variant: prior_update_gate
+
+relation:
+  num_heads: 2
+
+base_relation_retrieval:
+  num_heads: 2
+
+attn_dynamic:
+  num_heads: 2
+
+prior_gradient_trace_path: ""
+context_branch_growth_path: ""

@@ -1,0 +1,33 @@
+contrast,metric,scope,mean_delta,sd,n
+delta_gate_minus_terminal,validation accuracy delta (pp),all datasets,-0.37589338090684676,0.5058369583192006,9
+delta_gate_minus_terminal,validation accuracy delta (pp),Movies,-0.9498119354248047,0.24428819306563598,3
+delta_gate_minus_terminal,validation accuracy delta (pp),Grocery,-0.14641284942626953,0.4602128099071669,3
+delta_gate_minus_terminal,validation accuracy delta (pp),Reddit-S,-0.03145535786946615,0.031456351327271176,3
+delta_gate_minus_terminal,validation macro-F1 delta (pp),all datasets,-0.7603731497154345,1.808393993663006,9
+delta_gate_minus_terminal,validation macro-F1 delta (pp),Movies,-2.5521401431185122,1.8560938710870123,3
+delta_gate_minus_terminal,validation macro-F1 delta (pp),Grocery,0.37435649808928256,1.4308813963555322,3
+delta_gate_minus_terminal,validation macro-F1 delta (pp),Reddit-S,-0.10333580411707362,0.44050165481258163,3
+update_add_minus_delta_gate,validation accuracy delta (pp),all datasets,-0.05448593033684625,0.4255888985514116,9
+update_add_minus_delta_gate,validation accuracy delta (pp),Movies,0.08998314539591472,0.5045804530156169,3
+update_add_minus_delta_gate,validation accuracy delta (pp),Grocery,-0.11712908744812012,0.642215726556761,3
+update_add_minus_delta_gate,validation accuracy delta (pp),Reddit-S,-0.13631184895833334,0.10111740392853698,3
+update_add_minus_delta_gate,validation macro-F1 delta (pp),all datasets,-0.04774510282287587,3.1687810059450303,9
+update_add_minus_delta_gate,validation macro-F1 delta (pp),Movies,1.2435202966587269,5.504102531529602,3
+update_add_minus_delta_gate,validation macro-F1 delta (pp),Grocery,-1.0023131438070727,2.3472176887322123,3
+update_add_minus_delta_gate,validation macro-F1 delta (pp),Reddit-S,-0.38444246132028165,0.5676436529066015,3
+update_gate_minus_update_add,validation accuracy delta (pp),all datasets,0.04011988639831543,0.3518365748582574,9
+update_gate_minus_update_add,validation accuracy delta (pp),Movies,0.11997818946838379,0.5976280732135225,3
+update_gate_minus_update_add,validation accuracy delta (pp),Grocery,-0.14641483624776205,0.2049795218900011,3
+update_gate_minus_update_add,validation accuracy delta (pp),Reddit-S,0.14679630597432455,0.13096323385456224,3
+update_gate_minus_update_add,validation macro-F1 delta (pp),all datasets,0.6676557286863517,1.806285201171969,9
+update_gate_minus_update_add,validation macro-F1 delta (pp),Movies,1.5751798320856474,3.169690702777158,3
+update_gate_minus_update_add,validation macro-F1 delta (pp),Grocery,-0.0073365706718749495,0.9433796056140291,3
+update_gate_minus_update_add,validation macro-F1 delta (pp),Reddit-S,0.43512392464528277,0.3373903034020318,3
+update_gate_minus_terminal,validation accuracy delta (pp),all datasets,-0.3902594248453776,0.5453088532081544,9
+update_gate_minus_terminal,validation accuracy delta (pp),Movies,-0.7398506005605062,0.40278386260373084,3
+update_gate_minus_terminal,validation accuracy delta (pp),Grocery,-0.4099567731221517,0.7927949704999353,3
+update_gate_minus_terminal,validation accuracy delta (pp),Reddit-S,-0.020970900853474934,0.10111524067164405,3
+update_gate_minus_terminal,validation macro-F1 delta (pp),all datasets,-0.14046252385195857,1.4217687891927568,9
+update_gate_minus_terminal,validation macro-F1 delta (pp),Movies,0.266559985625862,1.5098412849871874,3
+update_gate_minus_terminal,validation macro-F1 delta (pp),Grocery,-0.6352932163896652,2.2297173847484046,3
+update_gate_minus_terminal,validation macro-F1 delta (pp),Reddit-S,-0.052654340792072464,0.45507484683582966,3
