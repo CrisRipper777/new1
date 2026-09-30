@@ -1,0 +1,21 @@
+name: final_interaction
+
+hidden_dim: 256
+relation_dim: 64
+operator_rank: 32
+conditioner_rank: 32
+num_interaction_steps: 2
+
+dropout: 0.2
+relation_dropout: 0.1
+edge_chunk_size: 16384
+
+variant: full
+
+relation:
+  num_heads: 2
+
+base_relation_retrieval:
+  num_heads: 2
+
+gradient_trace_path: ""

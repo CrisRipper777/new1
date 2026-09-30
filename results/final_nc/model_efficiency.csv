@@ -1,0 +1,26 @@
+dataset,variant,n_seeds,active_parameters,total_parameters,mean_epoch_time_seconds,peak_gpu_memory_mean_mb,peak_gpu_memory_max_mb,runtime_note
+Movies,full,3,998548,998548,1.2144895976105639,8593.0,8593.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Movies,no_context,3,998548,998548,1.2477329104636747,9165.0,10645.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Movies,shared_relation,3,890388,998676,0.7771056894837358,6131.0,6131.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Movies,static_execution,3,973972,998548,1.0905884886650343,7593.0,7593.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Movies,operator_off,3,795412,998548,1.1033299211174954,8593.0,8593.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Toys,full,3,998034,998034,0.7770752665189348,6907.0,6907.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Toys,no_context,3,998034,998034,0.7660075896198566,6799.0,6799.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Toys,shared_relation,3,889874,998162,0.48749609265528226,5141.666666666667,5143.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Toys,static_execution,3,973458,998034,0.7326575239034371,6203.0,6203.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Toys,operator_off,3,794898,998034,0.7770859674278657,6907.0,6907.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Grocery,full,3,998548,998548,0.8928558522734275,7777.0,7777.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Grocery,no_context,3,998548,998548,0.9070145184843122,7633.0,7633.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Grocery,shared_relation,3,890388,998676,0.5413330409303814,5611.0,5611.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Grocery,static_execution,3,973972,998548,0.8734379028698213,6893.0,6893.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Grocery,operator_off,3,795412,998548,0.8928155530837913,7876.666666666667,8076.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+ele-fashion,full,3,865420,865420,2.7220300319476283,20605.0,20605.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+ele-fashion,no_context,3,865420,865420,2.6807705490784945,20211.0,20211.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+ele-fashion,shared_relation,3,757260,865548,1.6467819664204686,14675.0,14675.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+ele-fashion,static_execution,3,840844,865420,2.5369917532270603,18089.0,18089.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+ele-fashion,operator_off,3,662284,865420,2.7237632646575265,20605.0,20605.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Reddit-S,full,3,998548,998548,1.6983223208443798,13245.0,13245.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Reddit-S,no_context,3,998548,998548,1.687266802899933,12957.0,12957.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Reddit-S,shared_relation,3,890388,998676,0.9753655697243306,8899.0,8899.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Reddit-S,static_execution,3,973972,998548,1.6301169650104554,11449.0,11449.0,run wall time divided by observed epochs; includes startup and per-epoch validation
+Reddit-S,operator_off,3,795412,998548,1.698457766320982,13245.0,13245.0,run wall time divided by observed epochs; includes startup and per-epoch validation
